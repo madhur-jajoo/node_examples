@@ -1,0 +1,16 @@
+{
+  "name": "using_dot_env_example",
+  "version": "0.0.0",
+  "description": "Dotenv example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["dotenv","env"],
+  "author": "Madhur Jajoo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0"
+  }
+}
