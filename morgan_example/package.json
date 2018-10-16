@@ -1,0 +1,22 @@
+{
+  "name": "morgan_example",
+  "version": "0.0.0",
+  "description": "Morgan logger example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "morgan",
+    "logging",
+    "logger"
+  ],
+  "author": "Madhur Jajoo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "rotating-file-stream": "^1.3.9"
+  }
+}
