@@ -1,0 +1,19 @@
+{
+  "name": "mongoose_example",
+  "version": "0.0.0",
+  "description": "a mongoose example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["mongoose"],
+  "author": "Madhur Jajoo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.4"
+  }
+}
