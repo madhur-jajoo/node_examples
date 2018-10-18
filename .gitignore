@@ -1,7 +1,12 @@
-
-# Created by https://www.gitignore.io/api/node,visualstudiocode
-
 ### Node ###
+
+# Lock Files
+package-lock.json
+yarn.lock
+
+# Environment Files
+.env
+
 # Logs
 logs
 *.log
@@ -58,9 +63,6 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
-.env
-
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
@@ -83,5 +85,3 @@ typings/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-
-# End of https://www.gitignore.io/api/node,visualstudiocode
