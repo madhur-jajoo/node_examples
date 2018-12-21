@@ -1,0 +1,48 @@
+{
+  "name": "npm_scripts_example",
+  "version": "0.0.0",
+  "description": "NPM Scripts Example",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "echo \"starting node server \" ",
+    "start": "node index.js",
+    "poststart": "echo \"node server started \" ",
+    "prerestart": "echo \" Restarting node server \" ",
+    "restart": "npm stop && npm start",
+    "postrestart": "echo \" node app restarted \" ",
+    "prestop": "echo \" Stopping node server \" ",
+    "stop": "exit 0",
+    "poststop": "echo \" node server stopped \" ",
+    "preinstall": "node -v",
+    "install": "",
+    "postinstall": "npm audit --fix",
+    "preuninstall": "",
+    "uninstall": "",
+    "postuninstall": "",
+    "preversion": "",
+    "version": "",
+    "postversion": "",
+    "pretest": "echo \" testing started \" ",
+    "test": "echo \"Error: no test specified\"",
+    "posttest": "exit 0",
+    "prepare": "",
+    "prepack": "",
+    "postpack": "",
+    "prepublish": "",
+    "prepublishOnly": "",
+    "publish": "",
+    "postpublish": "",
+    
+    "premyscript": "echo \" My Pre Script \" ",
+    "myscript": "echo \" My Script \" ",
+    "postmyscript": "echo \" My Post Script \" "
+  },
+  "keywords": [
+    "Scripts"
+  ],
+  "author": "Madhur Jajoo",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
